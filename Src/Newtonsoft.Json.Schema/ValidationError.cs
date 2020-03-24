@@ -118,7 +118,7 @@ namespace Newtonsoft.Json.Schema
 
         private void BuildMessages()
         {
-            if (_formattable is FormattableString formattableString)
+            if (_formattable is System.FormattableString formattableString)
             {
                 string format = formattableString.Format;
                 object[] args = formattableString.GetArguments();

@@ -10,7 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Schema.Tests;
+// using Newtonsoft.Json.Schema.Tests;
 
 namespace Newtonsoft.Json.Schema.TestConsole
 {
@@ -38,8 +38,8 @@ namespace Newtonsoft.Json.Schema.TestConsole
 
         public static void ValidateJson()
         {
-            PerformanceTests t = new PerformanceTests();
-            t.IsValidPerformance_Failure();
+            // PerformanceTests t = new PerformanceTests();
+            // t.IsValidPerformance_Failure();
         }
     }
 }
